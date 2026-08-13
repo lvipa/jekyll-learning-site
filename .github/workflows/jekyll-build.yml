@@ -1,3 +1,4 @@
+# Validate the site before a pull request can be merged.
 name: Build Jekyll site
 
 on:
