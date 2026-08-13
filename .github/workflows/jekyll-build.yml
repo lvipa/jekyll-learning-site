@@ -1,3 +1,4 @@
+# Validate the site before a pull request can be merged.
 name: Build Jekyll site
 
 on:
@@ -21,7 +22,11 @@ jobs:
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          bundler-cache: true
+          ruby-version: '3.3'
+          bundler-cache: false
+
+      - name: Install dependencies
+        run: bundle install
 
       - name: Build Jekyll site
         run: bundle exec jekyll build --trace
