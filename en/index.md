@@ -9,7 +9,7 @@ translation: /
 <section class="hero shell">
   <div class="hero-copy">
     <div class="eyebrow">Senior DevOps / Infrastructure Engineer</div>
-    <h1>Reliable infrastructure and automation you can build on.</h1>
+    <h1>Infrastructure. Automation. Reliability.</h1>
     <p>I build and operate Linux/Windows infrastructure, CI/CD processes and containerized services. This is my professional profile and a way to get in touch.</p>
     <div class="hero-actions">
       <a class="button button-primary" href="https://t.me/lvipa">Message on Telegram</a>
