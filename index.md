@@ -7,7 +7,7 @@ title: Главная
 
 Senior DevOps / Infrastructure Engineer с опытом эксплуатации, автоматизации и развития Linux/Windows-инфраструктуры. Здесь я собираю профессиональные заметки, проекты и результаты обучения.
 
-[LinkedIn](https://www.linkedin.com/in/lvipa/) · [Telegram](https://t.me/lvipa) · [GitHub](https://github.com/lvipa)
+[LinkedIn](https://www.linkedin.com/in/lvipa/) · [HH.ru — резюме](https://kinel.hh.ru/resume/db09e170ff040672c60039ed1f45784f6b6959) · [Telegram](https://t.me/lvipa) · [GitHub](https://github.com/lvipa)
 
 ## Что есть на сайте
 

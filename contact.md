@@ -9,6 +9,7 @@ permalink: /contact/
 Выберите удобный канал связи:
 
 - [LinkedIn — Иван Липатов](https://www.linkedin.com/in/lvipa/)
+- [HH.ru — резюме](https://kinel.hh.ru/resume/db09e170ff040672c60039ed1f45784f6b6959)
 - [Telegram — @lvipa](https://t.me/lvipa)
 - [GitHub — lvipa](https://github.com/lvipa)
 
