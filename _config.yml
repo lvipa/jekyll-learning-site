@@ -8,3 +8,7 @@ plugins:
 
 markdown: kramdown
 permalink: pretty
+
+exclude:
+  - "Senior DevOps Engineer _ Infrastructure Engineer.pdf"
+  - "855873407.jpeg"

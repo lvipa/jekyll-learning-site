@@ -3,23 +3,34 @@ layout: default
 title: Главная
 ---
 
-# Иван Липатов
+<section class="hero shell">
+  <div class="hero-copy">
+    <div class="eyebrow">Senior DevOps / Infrastructure Engineer</div>
+    <h1>Надёжная инфраструктура и автоматизация, на которые можно опереться.</h1>
+    <p>Развиваю и сопровождаю Linux/Windows-инфраструктуру, CI/CD-процессы и контейнерные сервисы. Здесь — мой профессиональный профиль и точки для связи.</p>
+    <div class="hero-actions">
+      <a class="button button-primary" href="https://t.me/lvipa">Написать в Telegram</a>
+      <a class="button button-secondary" href="https://kinel.hh.ru/resume/db09e170ff040672c60039ed1f45784f6b6959">Открыть резюме</a>
+    </div>
+    <div class="profile-links" aria-label="Профессиональные профили">
+      <a href="https://www.linkedin.com/in/lvipa/">LinkedIn</a>
+      <a href="https://github.com/lvipa">GitHub</a>
+      <a href="{{ '/contact/' | relative_url }}">Все контакты →</a>
+    </div>
+  </div>
+  <div class="hero-photo-wrap">
+    <img class="hero-photo" src="{{ '/assets/images/ivan-lipatov.jpeg' | relative_url }}" alt="Иван Липатов">
+  </div>
+</section>
 
-Senior DevOps / Infrastructure Engineer с опытом эксплуатации, автоматизации и развития Linux/Windows-инфраструктуры. Здесь я собираю профессиональные заметки, проекты и результаты обучения.
-
-[LinkedIn](https://www.linkedin.com/in/lvipa/) · [HH.ru — резюме](https://kinel.hh.ru/resume/db09e170ff040672c60039ed1f45784f6b6959) · [Telegram](https://t.me/lvipa) · [GitHub](https://github.com/lvipa)
-
-## Что есть на сайте
-
-- [Обо мне]({{ '/about/' | relative_url }})
-- [Цели обучения]({{ '/goals/' | relative_url }})
-- [Проекты]({{ '/projects/' | relative_url }})
-- [Заметки]({{ '/notes/' | relative_url }})
-- [Контакты]({{ '/contact/' | relative_url }})
-
-## Основные направления
-
-- CI/CD и автоматизация поставки .NET/Python-приложений.
-- Контейнеризация, Linux/Windows-серверы и базы данных.
-- Мониторинг, резервное копирование и отказоустойчивая инфраструктура.
-- HPC-кластеры, Ceph, Slurm и сетевое оборудование.
+<section class="home-nav">
+  <div class="shell">
+    <p class="section-label">Навигация</p>
+    <div class="nav-grid">
+      <a class="nav-card" href="{{ '/about/' | relative_url }}"><strong>Обо мне</strong><span>Профессиональный профиль и направления работы.</span></a>
+      <a class="nav-card" href="{{ '/projects/' | relative_url }}"><strong>Проекты</strong><span>Результаты практики и рабочие инициативы.</span></a>
+      <a class="nav-card" href="{{ '/notes/' | relative_url }}"><strong>Заметки</strong><span>Материалы по инфраструктуре и автоматизации.</span></a>
+      <a class="nav-card" href="{{ '/contact/' | relative_url }}"><strong>Контакты</strong><span>LinkedIn, Telegram, GitHub и резюме.</span></a>
+    </div>
+  </div>
+</section>

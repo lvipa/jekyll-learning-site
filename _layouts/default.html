@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="{{ site.lang | default: 'ru' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="shell header-inner">
+        <a class="brand" href="{{ '/' | relative_url }}" aria-label="На главную">
+          <span class="brand-mark">IL</span>
+          <span class="brand-copy"><strong>Иван Липатов</strong><small>DevOps Engineer</small></span>
+        </a>
+        <nav class="site-nav" aria-label="Основная навигация">
+          <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>Обо мне</a>
+          <a href="{{ '/projects/' | relative_url }}"{% if page.url == '/projects/' %} aria-current="page"{% endif %}>Проекты</a>
+          <a href="{{ '/notes/' | relative_url }}"{% if page.url == '/notes/' %} aria-current="page"{% endif %}>Заметки</a>
+          <a href="{{ '/contact/' | relative_url }}"{% if page.url == '/contact/' %} aria-current="page"{% endif %}>Контакты</a>
+        </nav>
+        <a class="header-cta" href="https://t.me/lvipa">Написать</a>
+      </div>
+    </header>
+
+    <main class="{% if page.url == '/' %}home{% else %}page{% endif %}">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <div class="shell footer-inner">
+        <span>© {{ 'now' | date: '%Y' }} Иван Липатов</span>
+        <div>
+          <a href="https://www.linkedin.com/in/lvipa/">LinkedIn</a>
+          <a href="https://t.me/lvipa">Telegram</a>
+          <a href="https://github.com/lvipa">GitHub</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

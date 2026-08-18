@@ -4,3 +4,8 @@ _site/
 .sass-cache/
 vendor/
 *.gem
+
+# Локальные исходники с персональными данными: для сайта используется только
+# assets/images/ivan-lipatov.jpeg.
+855873407.jpeg
+Senior DevOps Engineer _ Infrastructure Engineer.pdf
