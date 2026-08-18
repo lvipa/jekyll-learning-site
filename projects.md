@@ -2,6 +2,8 @@
 layout: default
 title: Проекты
 permalink: /projects/
+lang: ru
+translation: /en/projects/
 ---
 
 # Проекты

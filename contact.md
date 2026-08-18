@@ -2,6 +2,8 @@
 layout: default
 title: Контакты
 permalink: /contact/
+lang: ru
+translation: /en/contact/
 ---
 
 # Контакты

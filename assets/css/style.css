@@ -36,6 +36,8 @@ a:hover { color: var(--accent); }
 .site-nav a:hover, .site-nav a[aria-current="page"] { color: var(--ink); }
 .site-nav a[aria-current="page"] { box-shadow: inset 0 -2px var(--accent); }
 .header-cta, .button { display: inline-flex; justify-content: center; align-items: center; min-height: 42px; padding: 0 18px; border-radius: 8px; font-size: .9rem; font-weight: 700; text-decoration: none; transition: transform .18s ease, background .18s ease; }
+.language-switch { color: var(--muted); font-size: .78rem; font-weight: 800; letter-spacing: .06em; text-decoration: none; }
+.language-switch:hover { color: var(--accent-dark); }
 .header-cta, .button-primary { background: var(--accent); color: var(--white); }
 .header-cta:hover, .button-primary:hover { background: var(--accent-dark); color: var(--white); transform: translateY(-1px); }
 .button-secondary { color: var(--ink); background: var(--white); border: 1px solid var(--line); }

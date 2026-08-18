@@ -2,6 +2,8 @@
 layout: default
 title: Цели обучения
 permalink: /goals/
+lang: ru
+translation: /en/goals/
 ---
 
 # Цели обучения

@@ -2,6 +2,8 @@
 layout: default
 title: Обо мне
 permalink: /about/
+lang: ru
+translation: /en/about/
 ---
 
 # Обо мне

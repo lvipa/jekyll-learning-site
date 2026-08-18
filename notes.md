@@ -2,6 +2,8 @@
 layout: default
 title: Заметки
 permalink: /notes/
+lang: ru
+translation: /en/notes/
 ---
 
 # Заметки

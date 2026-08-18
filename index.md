@@ -1,6 +1,8 @@
 ---
 layout: default
-title: Главная
+title: Иван Липатов — DevOps Engineer
+lang: ru
+translation: /en/
 ---
 
 <section class="hero shell">
